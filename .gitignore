@@ -1,0 +1,24 @@
+# 敏感文件
+.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# 生成文件（报告/备份）
+reports_csv/
+reports_imgs/
+reports_xlsx/
+network_backups/
+tempFlies/
+
+# OS
+Thumbs.db
+.DS_Store
